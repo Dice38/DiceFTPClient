@@ -1,0 +1,6 @@
+{
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "ftpTest/lib/commons-net-3.9.0.jar"
+    ]
+}

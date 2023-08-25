@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+    <classpathentry kind="src" path="src"/>
+    <classpathentry kind="lib" path="lib/commons-net-3.9.0.jar"/> <!-- Replace x.x.x with the actual version number -->
+    <classpathentry kind="output" path="bin"/>
+</classpath>
