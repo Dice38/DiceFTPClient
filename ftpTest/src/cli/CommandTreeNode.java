@@ -17,7 +17,7 @@ public abstract class CommandTreeNode{
         return this.leftmostChild;
     }
 
-    public CommandTreeNode getRithSibling(){
+    public CommandTreeNode getRightSibling(){
         return this.rightSibling;
     }
     

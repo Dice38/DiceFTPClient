@@ -9,10 +9,14 @@ class rootStateCommand implements Command {
     }
 
     public boolean run(String commandParameters) throws IllegalStateException{
-        throw new IllegalStateException("Root State is not a runnable command. Look for runnable commands in the children of the root");
+        throw new IllegalStateException("Root State is not a runnable command. Look for runnable commands among the children of the root");
     }
 
     public String getCommandURL(){
+        return "root";
+    }
+
+    public String getCommandName(){
         return "root";
     }
 
